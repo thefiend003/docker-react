@@ -4,7 +4,6 @@ services:
 
 
 before_install:
-  - chmod +x /app
   - docker build -t akspawar/docker-react -f Dockerfile.dev .
 
 script:
